@@ -1,0 +1,35 @@
+{
+  "name": "milistne_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pat202001/Milistne_.git"
+  },
+  "author": "Patrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pat202001/Milistne_/issues"
+  },
+  "homepage": "https://github.com/pat202001/Milistne_#readme",
+  "dependencies": {
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "lint-staged": "^13.0.3"
+  }
+}
